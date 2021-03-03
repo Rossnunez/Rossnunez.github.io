@@ -105,3 +105,29 @@ img {
   height: 500px;
   width: 988px;
 }
+
+.programBar p {
+  font-family: Consolas;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.programTitle{
+  text-align: center;
+}
+
+.programBar .helloWord{
+  color:#cf5f55;
+}
+
+.programTitle span{
+  color:#3f96d9;
+}
+
+.programText{
+  color:#2b2828;
+}
+
+.programText span{
+  color:white;
+}
