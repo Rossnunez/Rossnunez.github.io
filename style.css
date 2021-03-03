@@ -40,12 +40,15 @@ img {
   padding: 15px;
 }
 
+/* ^^^^ THIS IS STYLING FOR THE HEADER ^^^^^ */
+
 .navBar {
   background-color: #e8e6e6;
   height: 500px;
   max-width: 275px;
   border-radius: 2.5%;
   transition: text-decoration 5s;
+  float: left;
 }
 
 .navBar p{
@@ -56,11 +59,9 @@ img {
 
 .TEST_TITLE{
   padding: 25px;
+  padding-left: 20px;
 }
 
-.TESTSTUFF {
-  margin: 29px;
-}
 
 .TESTSTUFF{
   position: relative;
@@ -69,6 +70,7 @@ img {
   /* display: inline-block; */
   padding-bottom: 0;
   width: 43%;
+  margin: 29px;
 }
 
 .TESTSTUFF:hover{
@@ -91,4 +93,15 @@ img {
 .TESTSTUFF:hover::before{
   visibility: visible;
   transform: scaleX(1);
+}
+
+/* ^^^^ THIS IS FOR MY SIDE NAVBAR ^^^^^ */
+
+.programBar{
+  background-color: #6b6565;
+  border-radius: 2.5%;
+  /* max-width: 275px; */
+  float: left;
+  height: 500px;
+  width: 988px;
 }
