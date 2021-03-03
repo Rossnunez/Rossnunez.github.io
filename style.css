@@ -48,31 +48,34 @@ img {
   transition: text-decoration 5s;
 }
 
-.navBar p {
-  padding: 15px;
+.navBar p{
   font-family: Consolas;
   font-size: 14px;
+  padding-bottom: 0;
 }
 
-#navBarText {
-  padding-left: 35px;
+.TEST_TITLE{
+  padding: 25px;
 }
 
-/* .navBar:hover{
-  text-decoration: underline;
-} */
+.TESTSTUFF {
+  margin: 29px;
+}
 
-div > p{
+.TESTSTUFF{
   position: relative;
   color: #000;
   text-decoration: none;
+  /* display: inline-block; */
+  padding-bottom: 0;
+  width: 43%;
 }
 
-div > p:hover{
+.TESTSTUFF:hover{
   color: #000;
 }
 
-div > p::before {
+.TESTSTUFF::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -85,7 +88,7 @@ div > p::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-div > p:hover::before{
+.TESTSTUFF:hover::before{
   visibility: visible;
   transform: scaleX(1);
 }
