@@ -3,16 +3,39 @@
 }
 
 img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  animation-name: hoverEffect;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes hoverEffect {
+  0%{top:0;}
+  50%{top:1rem;}
+  100%{top:0;}
 }
 
 p {
   display: inline-block;
+  font-family: 'AnkaCoderNarrowRegular';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
 }
 
-.myName {
+.myName{
   text-align: center;
-  background-color: #d3e0ea;
-  
+  background-color: #f6f5f5;
+  padding: 15px;
+}
+
+.navBar{
+  background-color: #e8e6e6;
+  height: 500px;
+  max-width: 250px;
+  border-radius: 2.5%;
+
 }
