@@ -109,12 +109,12 @@ img {
 
 .programBar p {
   font-family: Consolas;
-  padding: 11px;
+  /* padding: 11px; */
 }
 
 .programTitle{
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .programBar .helloWord{
@@ -128,9 +128,11 @@ img {
 .programText{
   color:#171515;
   font-size: 16px;
+  padding-top: 43px;
+
 }
 
-.programText span{
+.programText .whiteText{
   color:white;
 }
 
@@ -150,4 +152,12 @@ img {
 
 .programBarSide p:nth-child(odd){
    background-color:#8a8181;
+}
+
+.setters{
+  color:#469c50;
+}
+
+.myBlueName{
+  color:#3f96d9;
 }
