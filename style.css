@@ -228,3 +228,11 @@ img {
   top: 600px;
   height: 1000px;
 }
+
+.myTableProject{
+  margin: 100px auto;
+  border-style: solid;
+  /* margin-top: 100px; */
+  margin-left: 450px;
+  padding: 100px;
+}
