@@ -296,18 +296,36 @@ html{
   align-content: center;
 }
 
-.experienceListDiv{
+.experienceListONE{
   margin: 120px auto;
-  margin-left: 350px;
+  margin-left: 325px;
 }
 
-/* .experienceDiv .languagesList{
-  margin: 40px auto;
-  margin-left: 240px;
-} */
+.experienceListONE .osList{
+  margin-left: 325px;
+}
+
+.experienceListTWO{
+  margin: 120px auto;
+  margin-left: 325px;
+}
+
+.experienceListTWO .fmList{
+  margin-left: 325px;
+}
 
 .experienceDiv ul{
   display: inline-block;
   font-family: Consolas;
-  list-style: none;
+  list-style-type: square;
+  font-size: 24px;
+}
+
+.experienceDiv ul p{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.listItem{
+  padding-top: 20px;
 }
