@@ -78,7 +78,7 @@ html{
   color: #000;
   /* display: inline-block; */
   padding-bottom: 0;
-  width: 60%;
+  width: 125px;
   margin: 29px;
   text-decoration: none;
 }
@@ -246,9 +246,7 @@ html{
 
 .myTableProject{
   margin: 40px auto;
-  /* margin-top: 100px; */
   margin-left: 240px;
-
 }
 
 .myTableProject tr td{
@@ -262,7 +260,6 @@ html{
   height: 270px;
   opacity: 0.8;
   transition: width 1s, height 1s, opacity 2s;
-  /* transition: height 1s; */
 }
 
 .myTableProject tr td img:hover{
@@ -273,7 +270,7 @@ html{
 
 /* ^^^^^^^ THIS IS FOR MY PROJECTS ^^^^^^^^ */
 
-.contactHeaderDiv{
+.experienceHeaderDiv{
   background-color:#f6f5f5;
   /* width: 100%; */
   /* height: 49px; */
@@ -283,7 +280,7 @@ html{
   padding: 15px;
 }
 
-.contactHeaderDiv p{
+.experienceHeaderDiv p{
   font-family: 'AnkaCoderNarrowRegular';
   font-size: 32px;
   text-align: center;
@@ -292,10 +289,17 @@ html{
   margin-left: 125px;
 }
 
-.myContactDiv{
+.experienceDiv{
   background-color: white;
   display: block;
   position: relative;
   top: 570px;
   height: 1000px;
+  align-content: center;
+}
+
+.experienceDiv ul{
+  margin: 40px auto;
+  margin-left: 240px;
+  display: inline-block;
 }
