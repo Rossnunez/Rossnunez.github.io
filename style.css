@@ -76,11 +76,16 @@ html{
 .TESTSTUFF{
   position: relative;
   color: #000;
-  text-decoration: none;
   /* display: inline-block; */
   padding-bottom: 0;
   width: 60%;
   margin: 29px;
+  text-decoration: none;
+}
+
+.TESTSTUFF a{
+  color: #000;
+  text-decoration: none;
 }
 
 .TESTSTUFF:hover{
@@ -88,6 +93,8 @@ html{
 }
 
 .TESTSTUFF::before {
+  text-decoration: none;
+  color: black;
   content: "";
   position: absolute;
   width: 100%;
