@@ -127,6 +127,10 @@ html{
   top:120px;
 }
 
+.programBar a{
+  color: white;
+}
+
 .programBar p {
   font-family: Consolas;
 }
