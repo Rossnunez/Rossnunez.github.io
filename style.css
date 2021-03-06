@@ -290,15 +290,16 @@ html{
 .experienceDiv{
   background-color: white;
   display: block;
-  position: relative;
-  top: 570px;
-  height: 1000px;
+  position:relative;
+  top: 400px;
+  height: 475px;
   align-content: center;
 }
 
 .experienceListONE{
-  margin: 120px auto;
+  margin: 220px auto;
   margin-left: 325px;
+  margin-bottom: 150px;
 }
 
 .experienceListONE .osList{
@@ -306,7 +307,7 @@ html{
 }
 
 .experienceListTWO{
-  margin: 120px auto;
+  margin: 20px auto;
   margin-left: 325px;
 }
 
@@ -327,5 +328,38 @@ html{
 }
 
 .listItem{
-  padding-top: 20px;
+  padding-top: 29px;
+}
+
+/* ^^^^^^^^^^^^^^ THIS IS FOR MY EXPERIENCE ^^^^^^^^^^^ */
+
+.contactHeaderDiv{
+  background-color:#f6f5f5;
+  display: block;
+  position: relative;
+  top: 375px;
+  padding: 15px;
+}
+
+.contactHeaderDiv p{
+  font-family: 'AnkaCoderNarrowRegular';
+  font-size: 32px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
+  margin-left: 125px;
+}
+
+.contactDiv{
+  background-color: white;
+  display: block;
+  position: relative;
+  top: 375px;
+  height: 125px;
+  align-content: center;
+}
+
+.contactDiv table{
+  margin: 40px auto;
+  /* margin-left: 240px; */
 }
