@@ -238,20 +238,21 @@
 }
 
 .myTableProject tr td{
+  font-family: Consolas;
   padding: 25px;
 }
 
 .myTableProject tr td img{
   box-shadow: 1px 1px 3px #888888;
   width: 290px;
-  height: 260px;
-  opacity: 0.7;
-  transition: width 1s, height 2s, opacity 2s;
+  height: 270px;
+  opacity: 0.8;
+  transition: width 1s, height 1s, opacity 2s;
   /* transition: height 1s; */
 }
 
 .myTableProject tr td img:hover{
   width: 300px;
-  height: 270px;
+  height: 290px;
   opacity: 1;
 }
