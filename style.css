@@ -361,5 +361,11 @@ html{
 
 .contactDiv table{
   margin: 40px auto;
-  /* margin-left: 240px; */
+  margin-left: 210px;
+}
+
+.contactDiv table td{
+  padding: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
