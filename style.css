@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -46,7 +46,6 @@ html{
 }
 
 /* ^^^^ THIS IS STYLING FOR THE HEADER ^^^^^ */
-
 .navBar {
   background-color: #e8e6e6;
   /* height: 500px; */
@@ -56,24 +55,23 @@ html{
   float: left;
   position: fixed;
   z-index: 9999;
-  bottom:-20px;
+  bottom: -20px;
   height: 600px;
   width: 190px;
 }
 
-.navBar p{
+.navBar p {
   font-family: Consolas;
   font-size: 14px;
   padding-bottom: 0;
 }
 
-.TEST_TITLE{
+.TEST_TITLE {
   padding: 25px;
   padding-left: 20px;
 }
 
-
-.TESTSTUFF{
+.TESTSTUFF {
   position: relative;
   color: #000;
   /* display: inline-block; */
@@ -83,12 +81,12 @@ html{
   text-decoration: none;
 }
 
-.TESTSTUFF a{
+.TESTSTUFF a {
   color: #000;
   text-decoration: none;
 }
 
-.TESTSTUFF:hover{
+.TESTSTUFF:hover {
   color: #000;
 }
 
@@ -107,27 +105,26 @@ html{
   transition: all 0.3s ease-in-out 0s;
 }
 
-.TESTSTUFF:hover::before{
+.TESTSTUFF:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
 
 /* ^^^^ THIS IS FOR MY SIDE NAVBAR ^^^^^ */
-
-.programBar{
+.programBar {
   background-color: #6b6565;
   border-radius: 1%;
   /* max-width: 275px; */
   float: left;
   height: 500px;
   width: 1028px;
-  overflow:hidden;
+  overflow: hidden;
   position: absolute;
   left: 213px;
-  top:120px;
+  top: 120px;
 }
 
-.programBar a{
+.programBar a {
   color: white;
 }
 
@@ -135,65 +132,64 @@ html{
   font-family: Consolas;
 }
 
-.programBar .helloWord{
-  color:#cf5f55;
+.programBar .helloWord {
+  color: #cf5f55;
 }
 
-.programTitle span{
-  color:#3f96d9;
+.programTitle span {
+  color: #3f96d9;
 }
 
-.programText{
-  color:#171515;
+.programText {
+  color: #171515;
   font-size: 16px;
   margin-top: 37px;
-
 }
 
-.programText .whiteText{
-  color:white;
+.programText .whiteText {
+  color: white;
 }
 
-.programBarSide{
+.programBarSide {
   background-color: #7a7373;
   float: left;
   height: 500px;
   width: 50px;
 }
 
-.programBarSide p{
+.programBarSide p {
   font-family: Consolas;
   padding-left: 20px;
   padding-top: 5px;
   padding-bottom: 0;
 }
 
-.programBarSide p:nth-child(odd){
-   background-color:#8a8181;
+.programBarSide p:nth-child(odd) {
+  background-color: #8a8181;
 }
 
-.setters{
-  color:#469c50;
+.setters {
+  color: #469c50;
 }
 
-.myBlueName{
-  color:#3f96d9;
+.myBlueName {
+  color: #3f96d9;
 }
 
-.TypingBox{
+.TypingBox {
   width: 190px;
   margin-left: 100px;
 }
 
-.programTitle{
+.programTitle {
   /* text-align: center; */
   text-align: left;
   font-size: 28px;
   width: 190px;
-  align-content:center;
+  align-content: center;
 }
 
-.programTitle{
+.programTitle {
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
@@ -202,23 +198,32 @@ html{
   margin-top: 5px;
   /* letter-spacing: .15em; */
   animation: typing 2.5s steps(40, end),
-  blink-caret .75s step-end infinite;
+    blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
-  from{width:0}
-  to{width: 100%}
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 @keyframes blink-caret {
-  from, to {border-color: transparent}
-  50% {border-color: orange; }
+  from, to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
 }
 
 /* ^^^^^^^ THIS IS FOR MY ABOUT ME SECTION ^^^^^^^ */
-
-.projectHeaderDiv{
-  background-color:#f6f5f5;
+.projectHeaderDiv {
+  background-color: #f6f5f5;
   /* width: 100%; */
   /* height: 49px; */
   display: block;
@@ -227,7 +232,7 @@ html{
   padding: 15px;
 }
 
-.projectHeaderDiv p{
+.projectHeaderDiv p {
   font-family: 'AnkaCoderNarrowRegular';
   font-size: 32px;
   text-align: center;
@@ -236,7 +241,7 @@ html{
   margin-left: 125px;
 }
 
-.myProjectDiv{
+.myProjectDiv {
   background-color: white;
   display: block;
   position: relative;
@@ -244,17 +249,17 @@ html{
   height: 1000px;
 }
 
-.myTableProject{
+.myTableProject {
   margin: 40px auto;
   margin-left: 240px;
 }
 
-.myTableProject tr td{
+.myTableProject tr td {
   font-family: Consolas;
   padding: 25px;
 }
 
-.myTableProject tr td img{
+.myTableProject tr td img {
   box-shadow: 1px 1px 3px #888888;
   width: 290px;
   height: 270px;
@@ -262,23 +267,22 @@ html{
   transition: width 1s, height 1s, opacity 2s;
 }
 
-.myTableProject tr td img:hover{
+.myTableProject tr td img:hover {
   width: 300px;
   height: 290px;
   opacity: 1;
 }
 
 /* ^^^^^^^ THIS IS FOR MY PROJECTS ^^^^^^^^ */
-
-.experienceHeaderDiv{
-  background-color:#f6f5f5;
+.experienceHeaderDiv {
+  background-color: #f6f5f5;
   display: block;
   position: relative;
   top: 580px;
   padding: 15px;
 }
 
-.experienceHeaderDiv p{
+.experienceHeaderDiv p {
   font-family: 'AnkaCoderNarrowRegular';
   font-size: 32px;
   text-align: center;
@@ -287,61 +291,60 @@ html{
   margin-left: 125px;
 }
 
-.experienceDiv{
+.experienceDiv {
   background-color: white;
   display: block;
-  position:relative;
+  position: relative;
   top: 400px;
   height: 475px;
   align-content: center;
 }
 
-.experienceListONE{
+.experienceListONE {
   margin: 220px auto;
   margin-left: 325px;
   margin-bottom: 150px;
 }
 
-.experienceListONE .osList{
+.experienceListONE .osList {
   margin-left: 325px;
 }
 
-.experienceListTWO{
+.experienceListTWO {
   margin: 20px auto;
   margin-left: 325px;
 }
 
-.experienceListTWO .fmList{
+.experienceListTWO .fmList {
   margin-left: 325px;
 }
 
-.experienceDiv ul{
+.experienceDiv ul {
   display: inline-block;
   font-family: Consolas;
   list-style-type: square;
   font-size: 24px;
 }
 
-.experienceDiv ul p{
+.experienceDiv ul p {
   font-weight: bold;
   font-size: 26px;
 }
 
-.listItem{
+.listItem {
   padding-top: 29px;
 }
 
 /* ^^^^^^^^^^^^^^ THIS IS FOR MY EXPERIENCE ^^^^^^^^^^^ */
-
-.contactHeaderDiv{
-  background-color:#f6f5f5;
+.contactHeaderDiv {
+  background-color: #f6f5f5;
   display: block;
   position: relative;
   top: 375px;
   padding: 15px;
 }
 
-.contactHeaderDiv p{
+.contactHeaderDiv p {
   font-family: 'AnkaCoderNarrowRegular';
   font-size: 32px;
   text-align: center;
@@ -350,7 +353,7 @@ html{
   margin-left: 125px;
 }
 
-.contactDiv{
+.contactDiv {
   background-color: white;
   display: block;
   position: relative;
@@ -359,13 +362,22 @@ html{
   align-content: center;
 }
 
-.contactDiv table{
+.contactDiv table {
   margin: 40px auto;
   margin-left: 210px;
 }
 
-.contactDiv table td{
+.contactDiv table td {
   padding: 100px;
   padding-bottom: 25px;
   padding-top: 25px;
+}
+
+.Icons{
+  width: 50px;
+  transition: width 1s ease-in-out;
+}
+
+.Icons:hover{
+  width: 60px;
 }
