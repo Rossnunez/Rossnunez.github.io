@@ -7,7 +7,6 @@ html {
 }
 
 .parrotImg {
-  width: 40px;
   height: 40px;
   animation-name: hoverEffect;
   animation-duration: 3s;
@@ -116,8 +115,9 @@ html {
   border-radius: 1%;
   /* max-width: 275px; */
   float: left;
-  height: 500px;
+  height: 480px;
   width: 1028px;
+  max-width: 1028px;
   overflow: hidden;
   position: absolute;
   left: 213px;
@@ -199,6 +199,22 @@ html {
   /* letter-spacing: .15em; */
   animation: typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+
+#one{
+  margin-top: 33px;
+}
+
+#two{
+  margin-top: 30px;
+}
+
+#three, #four, #six{
+  margin-top: 29px;
+}
+
+#five{
+  margin-top: 28px;
 }
 
 @keyframes typing {
