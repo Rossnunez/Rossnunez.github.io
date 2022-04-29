@@ -110,6 +110,17 @@ html {
 }
 
 /* ^^^^ THIS IS FOR MY SIDE NAVBAR ^^^^^ */
+
+.introduction {
+  background-color: white;
+  display: block;
+  position: relative;
+  top: 570px;
+  height: 1000px;
+}
+
+
+/* ^^^^ THIS IS FOR MY INTRODUCTION ^^^^^ */
 .programBar {
   background-color: #6b6565;
   border-radius: 1%;
@@ -201,19 +212,21 @@ html {
     blink-caret .75s step-end infinite;
 }
 
-#one{
+#one {
   margin-top: 33px;
 }
 
-#two{
+#two {
   margin-top: 30px;
 }
 
-#three, #four, #six{
+#three,
+#four,
+#six {
   margin-top: 29px;
 }
 
-#five{
+#five {
   margin-top: 28px;
 }
 
@@ -228,7 +241,9 @@ html {
 }
 
 @keyframes blink-caret {
-  from, to {
+
+  from,
+  to {
     border-color: transparent
   }
 
@@ -389,11 +404,11 @@ html {
   padding-top: 25px;
 }
 
-.Icons{
+.Icons {
   width: 50px;
   transition: width 1s ease-in-out;
 }
 
-.Icons:hover{
+.Icons:hover {
   width: 60px;
 }
