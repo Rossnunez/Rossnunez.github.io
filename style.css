@@ -135,7 +135,7 @@ html {
   transition: width 1s, height 1s, opacity 2s;
 }
 
-.myTableProject tr td img:hover {
+.myTableBio tr td img:hover {
   width: 305px;
   height: 305px;
   opacity: 0.3;
