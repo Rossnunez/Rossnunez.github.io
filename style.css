@@ -116,12 +116,12 @@ html {
   display: block;
   position: relative;
   top: 570px;
-  height: 1000px;
+  height: 475px;
 }
 
-.myTableBio{
+.myTableBio {
   margin: 40px auto;
-  margin-left: 240px;
+  margin-left: 220px;
 }
 
 .myTableBio tr td {
@@ -130,10 +130,8 @@ html {
 }
 
 .myTableBio tr td img {
-  box-shadow: 1px 1px 3px #888888;
   width: 290px;
   height: 270px;
-  opacity: 0.8;
   transition: width 1s, height 1s, opacity 2s;
 }
 
