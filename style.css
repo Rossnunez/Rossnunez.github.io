@@ -130,8 +130,8 @@ html {
 }
 
 .myTableBio tr td img {
-  width: 290px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
   transition: width 1s, height 1s, opacity 2s;
 }
 
