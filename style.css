@@ -119,8 +119,27 @@ html {
   height: 1000px;
 }
 
+.myTableBio{
+  margin: 40px auto;
+  margin-left: 240px;
+}
+
+.myTableBio tr td {
+  font-family: Consolas;
+  padding: 25px;
+}
+
+.myTableBio tr td img {
+  box-shadow: 1px 1px 3px #888888;
+  width: 290px;
+  height: 270px;
+  opacity: 0.8;
+  transition: width 1s, height 1s, opacity 2s;
+}
+
 
 /* ^^^^ THIS IS FOR MY INTRODUCTION ^^^^^ */
+
 .programBar {
   background-color: #6b6565;
   border-radius: 1%;
