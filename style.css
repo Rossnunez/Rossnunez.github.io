@@ -154,7 +154,7 @@ html {
 
 .programBar {
   background-color: #5c5757;
-  border-radius: 1%;
+  border-radius: .75%;
   /* max-width: 275px; */
   float: left;
   height: 480px;
