@@ -127,6 +127,13 @@ html {
 
 .myTableBio tr td {
   font-family: Consolas;
+  font-size: 15px;
+  padding: 25px;
+}
+
+.myTableBio tr td b {
+  font-family: Consolas;
+  font-size: 17px;
   padding: 25px;
 }
 
