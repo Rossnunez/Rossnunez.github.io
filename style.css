@@ -375,7 +375,7 @@ html {
 }
 
 .experienceListTWO {
-  margin: 20px auto;
+  margin: 10px auto;
   margin-left: 325px;
 }
 
@@ -405,8 +405,9 @@ html {
   background: linear-gradient(90deg, rgba(246, 245, 245, 1) 0%, rgba(222, 221, 221, 1) 40%, rgba(164, 164, 164, 1) 100%);
   display: block;
   position: relative;
-  top: 375px;
+  top: 490px;
   padding: 15px;
+  z-index: 10;
 }
 
 .contactHeaderDiv p {
@@ -422,7 +423,7 @@ html {
   background-color: white;
   display: block;
   position: relative;
-  top: 375px;
+  top: 500px;
   height: 125px;
   align-content: center;
 }
